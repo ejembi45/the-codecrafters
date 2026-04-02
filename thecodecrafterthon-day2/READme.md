@@ -6,13 +6,13 @@ A command-line tool that converts numbers between bases.
 Type a number and its base, and the program outputs the result.
 It keeps running until you type "quit".
 
-"hex" input to decimal output
- "bin" input to decimal output
- "dec" input to binary and hex output
+ "hex" input → decimal output
+ "bin" input → decimal output
+ "dec" input → binary and hex output
 
 ## How to Run
 
-    git clone the repository
+    git clone   To  https://github.com/your-username/the-codecrafters
     cd the-codecrafters/thecodecrafterthon-day2
 
     go run main.go
@@ -45,8 +45,8 @@ It keeps running until you type "quit".
 
 The program handles bad input without crashing:
 
- "1G hex" → invalid hex digit
- "10201 bin" → invalid binary digit
+"1G hex" → invalid hex digit
+"10201 bin" → invalid binary digit
 "abc dec" → not a valid decimal number
- Missing arguments → usage message
+Missing arguments → usage message
  Empty input → prompt reappears silently
